@@ -1,0 +1,83 @@
+body{
+  background-color:#696969;
+}
+
+div {
+}
+
+p {
+  font-size:11;
+  line-height:100%;
+  margin: 0.5em 0em 0em; <!-- top leftright bottom -->
+}
+
+hr {
+  border:1px #606060 dashed;
+}
+
+a {
+  color:#303030;
+  text-decoration:underline;
+}
+
+a.titlelink {
+  color:#FFFFFF;
+  text-decoration:none;
+}
+
+.tlBox {
+  margin-right:0.5em;
+  margin-bottom:0.5em;
+
+  background-color:#222222;
+  padding-top:0.3em;
+  border-radius:10px;         /* CSS3 */
+  -moz-border-radius:10px;    /* Firefox */
+  -webkit-border-radius:10px; /* Safari,Chrome */
+
+  width: 268px;
+  overflow: auto;
+}
+
+.title {
+  margin-left:1.0em;
+  font-size:15;
+  font-weight:500;
+  color:#FFFFFF;
+}
+
+.textbox {
+  background-color:#999999;
+  border: solid 1px #808080;
+
+  width: 240px;
+  height: 300px;
+
+  font-size:13.5;
+  line-height:125%;
+
+  padding:0.5em 1.0em 0.5em;
+  overflow: auto;
+
+  border-radius:8px;         /* CSS3 */
+  -moz-border-radius:8px;    /* Firefox */
+  -webkit-border-radius:8px; /* Safari,Chrome */
+}
+
+.inputform {
+  background-color:#CCCCCC;
+  border: solid 1px #808080;
+
+  width: 268px;
+  height: 40px;
+
+  padding:0.5em 0.5em;
+  margin-bottom:-10px;
+
+  font-size:18;
+  font-weight:500;
+
+  border-radius:8px;         /* CSS3 */
+  -moz-border-radius:8px;    /* Firefox */
+  -webkit-border-radius:8px; /* Safari,Chrome */
+}
